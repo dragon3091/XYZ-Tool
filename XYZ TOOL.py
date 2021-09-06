@@ -5,9 +5,9 @@ print ("________")
 print("you can download important tools here")
 print ("what do you want" )
 print("             ")
-print("1-(metasploit), 2-(OSIF),3-(T-Header) ,4-(hack cam),")
+print("A-(" metasploit" ), B-(OSIF),C-(T-Header) ,D-(hack cam),")
 k1 = input ("what do you want: ")
-if k1 == "1" :  
+if k1 == "A" :  
     print("""pkg update && pkg upgrade - y
 
 pkg insatll wget
@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/me
 ./metasploit.sh
 
 msfconsol""")
-if k1== "2":
+if k1== "B":
     print ("""pkg update
 
 pkg upgrade
@@ -46,7 +46,7 @@ Is
 cd osif.py
 
 python2 osif.py""")
-if k1== "3" : 
+if k1== "C" : 
     print ("""to Type Your Name in termux 
 
 apt update && apt upgrade
@@ -66,7 +66,7 @@ apt update && apt upgrade
 
 
 Type Your Name and yes""")
-if k1== "4" :
+if k1== "D" :
 	print("""pkg update
   pkg upgrade
     pkg install python2
