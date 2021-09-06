@@ -5,7 +5,7 @@ print ("________")
 print("you can download important tools here")
 print ("what do you want" )
 print("             ")
-print("" A" -(metasploit), B-(OSIF),C-(T-Header) ,D-(hack cam),")
+print("A -(metasploit), B-(OSIF),C-(T-Header) ,D-(hack cam),")
 k1 = input ("what do you want: ")
 if k1 == "A" :  
     print("""pkg update && pkg upgrade - y
