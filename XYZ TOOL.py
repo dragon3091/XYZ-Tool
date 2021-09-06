@@ -78,5 +78,4 @@ if k1== "4" :
    cd ipcs
    ls
     python2 scan.py""")
-else : 
-    os.system('exit')
+
