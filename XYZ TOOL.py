@@ -1,14 +1,24 @@
 import os
 os.system('clear')
-print ("WELCOM TO V1 OF XYZ TOOL")
-print ("________")
+import os, sys, time
+def slowtype(t):
+   for D in t + "\n":
+   	sys.stdout.write(D)
+   	sys.stdout.flush()
+   	time.sleep(6/100)
+os.system('clear')
+print ("\033[31mXYZ TOOL")
+print("_____________")
+
+slowtype ("\033[34;1mWELCOM TO V1 OF XYZ TOOL")
+print ("__________________")
 print("you can download important tools here")
-print ("what do you want" )
 print("             ")
-print("A -(metasploit), B-(OSIF),C-(T-Header) ,D-(hack cam),")
+print("\033[36;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n")
 k1 = input ("what do you want: ")
-if k1 == "A" :  
-    print("""pkg update && pkg upgrade - y
+print ("               ")
+if k1 == "1" :  
+    print("""\033[32;1mpkg٠ update && pkg upgrade - y
 
 pkg insatll wget
 
@@ -19,7 +29,7 @@ wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/me
 ./metasploit.sh
 
 msfconsol""")
-if k1== "B":
+if k1== "2":
     print ("""pkg update
 
 pkg upgrade
@@ -46,7 +56,7 @@ Is
 cd osif.py
 
 python2 osif.py""")
-if k1== "C" : 
+if k1== "3" : 
     print ("""to Type Your Name in termux 
 
 apt update && apt upgrade
@@ -66,7 +76,7 @@ apt update && apt upgrade
 
 
 Type Your Name and yes""")
-if k1== "D" :
+if k1== "4" :
 	print("""pkg update
   pkg upgrade
     pkg install python2
@@ -78,4 +88,5 @@ if k1== "D" :
    cd ipcs
    ls
     python2 scan.py""")
-
+else : 
+    os.system('exit')
