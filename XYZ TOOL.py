@@ -1,5 +1,3 @@
-import os
-os.system('clear')
 import os, sys, time
 def slowtype(t):
    for D in t + "\n":
@@ -7,18 +5,24 @@ def slowtype(t):
    	sys.stdout.flush()
    	time.sleep(6/100)
 os.system('clear')
-print ("\033[31mXYZ TOOL")
-print("_____________")
-
-slowtype ("\033[34;1mWELCOM TO V1 OF XYZ TOOL")
-print ("__________________")
+############
+print('\033[33m')
+print("""
+__  ___   _______  _____ ___   ___  _     
+\ \/ \ \ / |__  / |_   _/ _ \ / _ \| |    
+ \  / \ V /  / /    | || | | | | | | |    
+ /  \  | |  / /_    | || |_| | |_| | |___ 
+/_/\_\ |_| /____|   |_| \___/ \___/|_____|""")
+slowtype("____________________________________________")
+slowtype ("\033[33;1mWELCOM TO V1 OF XYZ TOOL")
+print ("______________________________")
 print("you can download important tools here")
 print("             ")
 print("\033[36;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n")
 k1 = input ("what do you want: ")
 print ("               ")
-if k1 == "1" :  
-    print("""\033[32;1mpkg update && pkg upgrade - y
+if k1 == "1" :
+    print("""\033[32mpkg update && pkg upgrade - y
 
 pkg insatll wget
 
