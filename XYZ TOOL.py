@@ -18,7 +18,7 @@ print("\033[36;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n")
 k1 = input ("what do you want: ")
 print ("               ")
 if k1 == "1" :  
-    print("""\033[32;1mpkg٠ update && pkg upgrade - y
+    print("""\033[32;1mpkg update && pkg upgrade - y
 
 pkg insatll wget
 
@@ -40,7 +40,7 @@ pkg install python2
 
 pkg install git
 
-git clone https://github.com/CiKu370/0SI F
+git clone https://github.com/CiKu370/0SIF
 Is
 
 cd OSIF
