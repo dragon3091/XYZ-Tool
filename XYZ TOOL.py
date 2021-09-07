@@ -7,14 +7,14 @@ def slowtype(t):
 os.system('clear')
 ############
 print('\033[33m')
-slowtype("""
+print ("""
 __  ___   _______  _____ ___   ___  _     
 \ \/ \ \ / |__  / |_   _/ _ \ / _ \| |    
  \  / \ V /  / /    | || | | | | | | |    
  /  \  | |  / /_    | || |_| | |_| | |___ 
 /_/\_\ |_| /____|   |_| \___/ \___/|_____|""")
 slowtype("_____________________________")
-print ("\033[33;1mWELCOM TO V1 OF XYZ TOOL")
+slowtype ("\033[33;1mWELCOM TO V1 OF XYZ TOOL")
 print ("__________________")
 print("you can download important tools here")
 print("             ")
@@ -30,4 +30,4 @@ if k1== "3" :
 if k1== "4" :
 	os.systeem('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan.py')
 else : 
-    os.system('exit') 
+    os.system('exit')
