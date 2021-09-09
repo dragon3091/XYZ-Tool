@@ -30,6 +30,6 @@ if k1== "3" :
 if k1== "4" :
     os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan.py')
 if k1=="5" : 
-    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&&cd dragon-ddos-attaack&&python dos dragon.py
+    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&&cd dragon-ddos-attaack&&python dos dragon.py') 
 else : 
     os.system('exit')
