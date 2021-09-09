@@ -14,11 +14,11 @@ __  ___   _______  _____ ___   ___  _
  /  \  | |  / /_    | || |_| | |_| | |___ 
 /_/\_\ |_| /____|   |_| \___/ \___/|_____|""")
 slowtype("_____________________________")
-slowtype ("\033[33;1mWELCOM TO V1 OF XYZ TOOL")
+slowtype ("\033[33;1mWELCOM TO V2 OF XYZ TOOL")
 print ("__________________")
-print("you can download important tools here")
+print("you can download important tools and funy tools here")
 print("             ")
-print("\033[36;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n")
+print("\033[36;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n5-DDOS ATTACK\n")
 k1 = input ("what do you want: ")
 print ("               ")
 if k1 == "1" :  
@@ -28,6 +28,8 @@ if k1== "2":
 if k1== "3" : 
     os.system("apt update && apt upgrade&&git clone https://github.com/remo7777/T-Header&&cd T-Header&&chmod 777 t-header.sh&&bash t-header.sh&&Type Your Name and yes")
 if k1== "4" :
-	os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan.py')
+   os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan.py')
+if k1=="5"
+    os. system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&&cd dragon-ddos-attaack&&python dos dragon.py
 else : 
     os.system('exit')
