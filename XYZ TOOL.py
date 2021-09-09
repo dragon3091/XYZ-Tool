@@ -18,7 +18,7 @@ slowtype ("\033[33;1mWELCOM TO V2 OF XYZ TOOL")
 print ("__________________")
 print("you can download important tools and funy tools here")
 print("             ")
-print("\033[32;1m 1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n5-DDOS ATTACK\n")
+print("\033[32;1m1-Metasploit\n2-OSIF\n3-T-Header\n4-Hack cam\n5-DDOS ATTACK\n")
 k1 = input ("what do you want: ")
 print ("               ")
 if k1 == "1" :  
