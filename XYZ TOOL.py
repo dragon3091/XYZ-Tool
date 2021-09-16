@@ -22,8 +22,7 @@ print("\033[32;10m1-termux start\n2-Metasploit\n3-OSIF\n4-T-Header\n5-Hack cam\n
 k1 = input ("what do you want: ")
 print ("               ")
 if k1 == "1" :
-	os.system('pkg install root-repo &&apt update  && apt upgrade && apt install git && apt install python && apt install python2 && apt install python3 && pip3 install pip && pip2 install requests && pip2 install mechanize && pkg install ruby && pkg install nano && apt install host && apt install golang &&apt install havij && apt install wireshark && apt install cmatrix && pkg install figlet && pkg install wget && pkg install wget -y && pkg install python2 -y && apt install wireshark && pkg install cowsay && pkg install toilet && gem install lolcat && pkg install curl && pkg install wgetrc && pkg install unzip && pkg install w3m')
-
+	os.system('pkg install root-repo &&apt update  && apt upgrade && apt install git && apt install python && apt install python2 && apt install python3 && pip3 install pip && pip2 install requests && pip2 install mechanize && pkg install ruby && pkg install nano && apt install golang &&apt install havij && apt install wireshark && apt install cmatrix && pkg install figlet && pkg install wget && pkg install wget -y && pkg install python2 -y && apt install wireshark && pkg install cowsay && pkg install toilet && gem install lolcat && pkg install curl && pkg install wgetrc && pkg install unzip && pkg install w3m')
 if k1 == "2" :  
     os.system('pkg update && pkg upgrade - y && pkg insatll wget -y && pkg install ruby -y && wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh')
 if k1== "3":
