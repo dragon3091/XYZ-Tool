@@ -40,7 +40,7 @@ if k1 == "1" :
 if k1 == "2" :  
     os.system('pkg update && pkg upgrade - y && pkg insatll wget -y && pkg install ruby -y && wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh')
 if k1== "3":
-    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF &&cd OSIF&&chmod +x *&&mv OSIF $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF&&cd OSIF&&chmod +x *&&cd..&&mv OSIF $HOME')
 if k1== "4" : 
     os.system("apt update && apt upgrade&&git clone https://github.com/remo7777/T-Header&&cd T-Header&&chmod 777 t-header.sh&&bash t-header.sh")
 if k1== "5" :
@@ -50,7 +50,7 @@ if k1=="6" :
 if k1=="7" :
 	os.system("pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/Bl4ckDr460n/HxWhatsApp&& mv HxWhatsApp $HOME")
 if k1=="8" :
-	os.system("pkg update&&pkg upgrade&& pkg install python&&pkg insatll unzip&&pkg install git&&git clone https://github.com/IlayTamvan/Report&&cd Report && unzip Report.zip&&chmod +x Report.py&&mv Report $HOME ")
+	os.system("pkg update&&pkg upgrade&& pkg install python&&pkg insatll unzip&&pkg install git&&git clone https://github.com/IlayTamvan/Report&&cd Report && unzip Report.zip&&chmod +x Report.py&&cd..&&mv Report $HOME ")
 if k1 =="9" :
 	os.system("pkg update&&pkg upgrade&&pkg install git&&pkg install python&& git clone https://github.com/Gameye98/Lazymux&& python2 lazymax.py&&mv Lazymux $HOME")
 if k1 =="10" :
