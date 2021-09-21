@@ -55,8 +55,8 @@ if k1== "3":
 if k1== "4" : 
     os.system("apt update && apt upgrade&&git clone https://github.com/remo7777/T-Header&&cd T-Header&&chmod 777 t-header.sh&&bash t-header.sh&&Type Your Name and yes")
 if k1== "5" :
-    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ..&&mv ipcs $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&& mv ipcs $HOME')
 if k1=="6" : 
-    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&&cd .. && mv dragon-ddos-attaack $HOME ') 
+    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&& mv dragon-ddos-attaack $HOME ') 
 else : 
     os.system('exit')
