@@ -40,11 +40,11 @@ if k1 == "1" :
 if k1 == "2" :  
     os.system('pkg update && pkg upgrade - y && pkg insatll wget -y && pkg install ruby -y && wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh')
 if k1== "3":
-    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF&&cd OSIF&&chmod +x *&&cd..&&mv OSIF $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF&&cd OSIF&&chmod +x *&&cd ..&&mv OSIF $HOME')
 if k1== "4" : 
     os.system("apt update && apt upgrade&&git clone https://github.com/remo7777/T-Header&&cd T-Header&&chmod 777 t-header.sh&&bash t-header.sh")
 if k1== "5" :
-    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&mv ipcs $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan. py&&cd ..&&mv ipcs $HOME')
 if k1=="6" : 
     os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&& mv dragon-ddos-attaack $HOME ') 
 if k1=="7" :
