@@ -27,10 +27,10 @@ __  ___   _______  _____ ___   ___  _
 slowtype("_____________________________")
 print ("")
 slowtype (PU+"WELCOM TO V4 OF XYZ TOOL")
-print ("__________________")  
-print("IN HERE, YOU CAN DOWNLOAD TERMUX START / METASPLOI/ A LOT OF TOOLS")
+print ("__________________")
+print("IN HERE, YOU CAN DOWNLOAD TERMUX START / METASPLOI/ A LOT OFTOOLS")
 print("             ")
-print(R+"1-Termux Start\n2-Metasploit\n3-OSIF\n4-T-Header\n5-Hack cam\n6-DDOS ATTACK\n7-HxWhatsapp\n8-Facebook Report\n9-lazy max\n10-Termux-Banner")
+print(R+"1-Termux Start\n2-Metasploit\n3-OSIF\n4-T-Header\n5-Hack cam\n6-DDOS ATTACK\n7-HxWhatsapp\n8-Facebook Report\n9-lazy max\n10-Termux-Banner\n11- Easy Sploit")
 print ("")
 k1 = input ("WHAT DO YOU INSTALL : ")
 print ("               ")
@@ -40,21 +40,22 @@ if k1 == "1" :
 if k1 == "2" :  
     os.system('pkg update && pkg upgrade - y && pkg insatll wget -y && pkg install ruby -y && wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh')
 if k1== "3":
-    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF&&cd OSIF&&chmod +x *&&cd ..&&mv OSIF $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/CiKu370/OSIF &&cd OSIF&&chmod +x *&& python2 osif.py&&mv OSIF $HOME')
 if k1== "4" : 
     os.system("apt update && apt upgrade&&git clone https://github.com/remo7777/T-Header&&cd T-Header&&chmod 777 t-header.sh&&bash t-header.sh")
 if k1== "5" :
-    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&cd ipcs&&python2 scan. py&&cd ..&&mv ipcs $HOME')
+    os.system('pkg update&&pkg upgrade&&pkg install python2&&pkg install python&&pip2 install requests&&pkg install git&&git clone https://github.com/kancotdiq/ipcs&&python2 scan.py&&mv ipcs $HOME')
 if k1=="6" : 
-    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&& mv dragon-ddos-attaack $HOME ') 
+    os.system('pkg update&&pkg upgrade&&pkg install git&& pkg install python&& pkg install python2&&git clone https://github.com/dragon3091/dragon-ddos-attaack&&cd .. && mv dragon-ddos-attaack $HOME ') 
 if k1=="7" :
 	os.system("pkg update&&pkg upgrade&&pkg install python&&pkg install python2&&pkg install git&& git clone https://github.com/Bl4ckDr460n/HxWhatsApp&& mv HxWhatsApp $HOME")
 if k1=="8" :
-	os.system("pkg update&&pkg upgrade&& pkg install python&&pkg insatll unzip&&pkg install git&&git clone https://github.com/IlayTamvan/Report&&cd Report && unzip Report.zip&&chmod +x Report.py&&cd..&&mv Report $HOME ")
+	os.system("pkg update&&pkg upgrade&& pkg install python&&pkg insatll unzip&&pkg install git&&git clone https://github.com/IlayTamvan/Report&&cd Report && unzip Report.zip&&chmod +x Report.py&&mv Report $HOME ")
 if k1 =="9" :
 	os.system("pkg update&&pkg upgrade&&pkg install git&&pkg install python&& git clone https://github.com/Gameye98/Lazymux&& python2 lazymax.py&&mv Lazymux $HOME")
 if k1 =="10" :
-	os.system("pkg update&&pkg upgrade&&pkg install git&&https://github.com/Bhai4You/Termux-Banner&& chmod +x requirement.sh&& chmod +x t-ban.sh&& bash requirement.sh&& bash t-ban.sh")
+	os.system("pkg update&&pkg upgrade&&pkg install git&&https://github.com/Bhai4You/Termux-Banner&& chmod +x requirement.sh&& chmod +x t-ban.sh&& bash requirement.sh&& bash t-ban.sh&& mv Termux-Banner")
+if k1 == "11" : 
+    os.system ("pkg update&&pkg upgrade&&pkg install git&&pkg install python&&pkg install python2&&git clone https://github.com/dragon3091/e-sploit&& mv e-sploit $HOME")
 else : 
     os.system('exit')
- 
